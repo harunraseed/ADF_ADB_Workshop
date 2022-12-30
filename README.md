@@ -1,20 +1,12 @@
 ---
 title: Run a Databricks Notebook with the activity
 description: "Learn how you can use the Databricks Notebook Activity in an Azure data factory to run a Databricks notebook against the databricks jobs cluster."
-ms.service: data-factory
-ms.subservice: tutorials
-ms.topic: tutorial
-ms.author: abnarain
-author: nabhishek
-ms.custom: seo-lt-2019
-ms.date: 09/22/2022
 ---
 
 # Run a Databricks notebook with the Databricks Notebook Activity in Azure Data Factory
 
-[!INCLUDE[appliesto-adf-xxx-md](includes/appliesto-adf-xxx-md.md)]
 
-In this tutorial, you use the Azure portal to create an Azure Data Factory pipeline that executes a Databricks notebook against the Databricks jobs cluster. It also passes Azure Data Factory parameters to the Databricks notebook during execution.
+In this Workshop, you use the Azure portal to create an Azure Data Factory pipeline that executes a Databricks notebook against the Databricks jobs cluster. It also passes Azure Data Factory parameters to the Databricks notebook during execution.
 
 You perform the following steps in this tutorial:
 
@@ -28,10 +20,6 @@ You perform the following steps in this tutorial:
 
 If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) before you begin.
 
-For an eleven-minute introduction and demonstration of this feature, watch the following video:
-
-> [!VIDEO https://learn.microsoft.com/Shows/Azure-Friday/ingest-prepare-and-transform-using-azure-databricks-and-data-factory/player]
-## Prerequisites
 
   - **Azure Databricks workspace**. [Create a Databricks workspace](/azure/databricks/scenarios/quickstart-create-databricks-workspace-portal) or use an existing one. You create a Python notebook in your Azure Databricks workspace. Then you execute the notebook and pass parameters to it using Azure Data Factory.
 
