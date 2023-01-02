@@ -40,7 +40,6 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
     
     1. Select **Create new**, and enter the name of a new resource group.
 
-    To learn about resource groups, see [Using resource groups to manage your Azure resources](../azure-resource-manager/management/overview.md).
 
 1. For **Region**, select the location for the data factory.
 
@@ -48,7 +47,7 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 
 1. For **Name**, enter **ADFTutorialDataFactory**.
     
-    The name of the Azure data factory must be *globally unique*. If you see the following error, change the name of the data factory (For example, use **&lt;yourname&gt;ADFTutorialDataFactory**). For naming rules for Data Factory artifacts, see the [Data Factory - naming rules](./naming-rules.md) article.
+    The name of the Azure data factory must be *globally unique*. If you see the following error, change the name of the data factory (For example, use **&lt;yourname&gt;ADFTutorialDataFactory**). 
 ![name-not-available-error](https://user-images.githubusercontent.com/20214629/210101196-de1c30ff-d423-4ceb-92b7-f0b7b506edc8.png)
 
 
