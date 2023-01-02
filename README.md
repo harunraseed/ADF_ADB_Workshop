@@ -162,10 +162,10 @@ In this section, you author a Databricks linked service. This linked service con
            print (y)
            ```
 
-       ![databricks-notebook-activity-image16](https://user-images.githubusercontent.com/20214629/210101587-813d6502-1214-49ea-a479-0969b0217407.png)
+       The **Notebook Path** in this case is **/adftutorial/mynotebook**.
 
 
-       1. The **Notebook Path** in this case is **/adftutorial/mynotebook**.
+![databricks-notebook-activity-image16](https://user-images.githubusercontent.com/20214629/210101587-813d6502-1214-49ea-a479-0969b0217407.png)
 
 1.  Switch back to the **Data Factory UI authoring tool**. Navigate to **Settings** Tab under the **Notebook1** activity.
 
