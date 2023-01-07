@@ -65,7 +65,7 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 
 In this section, You are going to create a Azure Databricks service from Azure portal.
 
-![](https://github.com/harunraseed/ADF_ADB_Workshop/blob/29005dafe179518da7fc263382c7d436ffdf72a5/Images/ADB_Create.PNG)
+![test](https://github.com/harunraseed/ADF_ADB_Workshop/blob/29005dafe179518da7fc263382c7d436ffdf72a5/Images/ADB_Create.PNG)
 
 
 
