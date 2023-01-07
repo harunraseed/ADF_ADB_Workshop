@@ -61,6 +61,52 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 
 ![data-factory-home-page](https://user-images.githubusercontent.com/20214629/210101204-746458c6-6bb4-4d8c-a8e7-fdbfc091eab6.png)
 
+## Create Azure Databricks
+
+In this section, You are going to create a Azure Databricks service from Azure portal.
+
+<img src="Images/ADB_Create.PNG" alt="Alt text" title="Optional title">
+
+
+
+
+### Create an Azure Databricks linked service
+
+1.  On the home page, switch to the **Manage** tab in the left panel.
+![get-started-page-manage-button](https://user-images.githubusercontent.com/20214629/210101217-6ffe3311-4d6d-40d7-b314-507d937f8bc4.png)
+
+
+1.  Select **Linked services** under **Connections**, and then select **+ New**.
+    
+
+![databricks-notebook-activity-image-6](https://user-images.githubusercontent.com/20214629/210101223-3577167b-636a-482e-83bb-b152e3b44301.png)
+
+1.  In the **New linked service** window, select **Compute** &gt; **Azure Databricks**, and then select **Continue**.
+    
+![databricks-notebook-activity-image-7](https://user-images.githubusercontent.com/20214629/210101232-69203136-886d-438c-b0e4-08b856a83837.png)
+
+
+1.  In the **New linked service** window, complete the following steps:
+    
+    1.  For **Name**, enter ***AzureDatabricks\_LinkedService***.
+    
+    1.  Select the appropriate **Databricks workspace** that you will run your notebook in.
+
+    1.  For **Select cluster**, select **New job cluster**.
+    
+    1.  For **Databrick Workspace URL**, the information should be auto-populated.
+
+    1.  For **Access Token**, generate it from Azure Databricks workplace. You can find the steps [here](https://docs.databricks.com/api/latest/authentication.html#generate-token).
+
+    1.  For **Cluster version**, select the version you want to use.
+
+    1.  For **Cluster node type**, select **Standard\_D3\_v2** under **General Purpose (HDD)** category for this tutorial. 
+    
+    1.  For **Workers**, enter **2**.
+    
+    1.  Select **Create**.
+
+![new-databricks-linked-service](https://user-images.githubusercontent.com/20214629/210101245-042be0dd-c2f9-4e92-ba8b-e2881706cacc.png)--harundel
 
 ## Create linked services
 
