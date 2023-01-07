@@ -111,7 +111,7 @@ In this section, you author a Databricks linked service. This linked service con
     
     1.  Select **Create**.
 
-![new-databricks-linked-service](https://user-images.githubusercontent.com/20214629/210101245-042be0dd-c2f9-4e92-ba8b-e2881706cacc.png)
+![new-databricks-linked-service](Images/ADB_Linkedservice.PNG)
 
 
 ## Create a pipeline
@@ -133,6 +133,9 @@ In this section, you author a Databricks linked service. This linked service con
 
 ![new-adf-pipeline](https://user-images.githubusercontent.com/20214629/210101511-8df7ca47-1ce9-472c-af77-5c367c8ce528.png)
 
+![new-adf-pipeline_config](Images/ADB_Select_LS_ADF.PNG)
+
+![new-adf-pipeline_config_01](Images/ADB_Notebook.jpg)
 
 
 1.  In the properties for the **Databricks** **Notebook** activity window at the bottom, complete the following steps:
